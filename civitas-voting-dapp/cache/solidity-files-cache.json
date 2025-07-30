@@ -1,0 +1,114 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/ace/Civitas/civitas-voting-dapp/contracts/BallotContract.sol": {
+      "lastModificationDate": 1753900376585,
+      "contentHash": "d04849afb52ac713a3744a60d9f3fc6f",
+      "sourceName": "contracts/BallotContract.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IVoter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BallotContract"
+      ]
+    },
+    "/home/ace/Civitas/civitas-voting-dapp/contracts/interfaces/IVoter.sol": {
+      "lastModificationDate": 1753812667834,
+      "contentHash": "f0e316d41485da046b2b67930ab9cdf0",
+      "sourceName": "contracts/interfaces/IVoter.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IVoter"
+      ]
+    },
+    "/home/ace/Civitas/civitas-voting-dapp/contracts/VoterRegistry.sol": {
+      "lastModificationDate": 1753900163748,
+      "contentHash": "cc8ea074f3a71d4f992f01b868a84937",
+      "sourceName": "contracts/VoterRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IVoter.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "VoterRegistry"
+      ]
+    }
+  }
+}
